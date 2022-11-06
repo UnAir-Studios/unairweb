@@ -1,0 +1,84 @@
+body{
+    font-family:'Montserrat', sans-serif;
+    
+}
+.logo{
+    display: inline;
+}
+.navbar li{
+    float: right;
+    list-style-type: none;
+    overflow: auto;
+    margin-top: 5px;
+
+}
+
+.navbar {
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -5px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 20px
+}
+
+.navbar a:hover {
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+
+.slideshow img{
+    object-fit: cover;
+    height: auto;
+    width: auto;
+    margin-left:  -20px;
+}
+
+.slideshow h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-shadow: 4px 4px black;
+}
+
+.slideshow h2{
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        text-shadow: 2px 2px black;
+
+}
+
+.slideshow .button{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    border: 2px solid white;
+    padding: 5px;
+    text-shadow: 2px 2px black;
+    box-shadow: 2px 2px black;
+    text-decoration: none;
+}
+
+.slideshow .button:hover {
+    color:grey;
+    border: 2px solid grey;
+}
+
